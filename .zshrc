@@ -15,3 +15,12 @@ prompt pure
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+
+alias code='codium'
+
+#git aliases
+alias gc='git clone'
+alias ga='git add'
+alias gp='git push'
+
+

@@ -1,1 +1,1 @@
-/var/lib/flatpak/app/com.brave.Browser/x86_64/stable/active/export/bin/com.brave.Browser
+/var/lib/flatpak/app/io.github.zen_browser.zen/current/active/export/bin/io.github.zen_browser.zen
