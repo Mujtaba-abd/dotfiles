@@ -1,4 +1,5 @@
-@import "mocha.css";
+/*@import "mocha.css";*/
+@import "colors-waybar.css";
 
 * {
   min-height: 0;
@@ -8,8 +9,8 @@
 }
 
 window#waybar {
-  color: @text;
-  background: @base;
+  color: @color7;
+  background: rgba(0, 0, 0, 0);
   transition-property: background-color;
   transition-duration: 0.5s;
   border-radius: 90px;
@@ -40,26 +41,26 @@ button {
 }
 
 button:hover {
-  background: @base;
+  background: @background;
   border-radius: 90px;
 }
 
 #custom-power {
-  color: @lavender;
+  color: @color1;
   font-weight: 600;
   margin-right: 10px;
   padding-left: 15px;
   padding-right: 19px;
   border-radius: 90px;
-  background: @crust
+  background: @background;
 }
 #battery {
-  color: @crust;
+  color: @color2;
   font-weight: 600;
   margin-right: 10px;
   padding: 6px 15px;
   border-radius: 90px;
-  background: @green
+  background: @background;
 }
 
 #workspaces {
@@ -67,26 +68,25 @@ button:hover {
   margin-right: 10px;
   padding: 5px 10px;
   border-radius: 90px;
-  background: @crust
+  background: @background;
 }
 
-
 #workspaces button {
-  color: @text;
+  color: @color7;
   font-weight: 600;
   margin: 0px;
   padding: 0px 5px;
 }
 
 #workspaces button.urgent {
-  color: @red;
+  color: red;
 }
 #workspaces button.empty {
-  color: @surface2;
+  color: @color8;
 }
 
 #workspaces button.active {
-  color: @blue;
+  color: @color5;
 }
 
 #workspaces button.focused {
@@ -102,51 +102,51 @@ button:hover {
   margin-right: 10px;
   padding: 6px 15px;
   border-radius: 90px;
-  background: @crust
+  background: @crust;
 }
 
 #pulseaudio {
-  color: @crust;
+  color: @color2;
   font-weight: 600;
   margin-right: 10px;
   padding: 6px 15px;
   border-radius: 90px;
-  background: @maroon 
+  background: @background;
 }
 
 #network {
-  color: @crust;
+  color: @color2;
   font-weight: 600;
   margin-right: 10px;
   padding: 6px 15px;
   border-radius: 90px;
-  background: @yellow
+  background: @background;
 }
 
 #tray {
-  color: @text;
+  color: @color2;
   font-weight: 600;
   padding: 6px 15px;
   border-radius: 90px;
-  background: @crust
+  background: @background;
 }
 
 #clock {
-  color: @blue;
+  color: @color0;
   font-weight: 600;
   margin-right: 10px;
   padding: 6px 15px;
   border-radius: 90px;
-  background: @crust
+  background: @foreground;
 }
 
 #custom-sepp {
-    color: @surface2;
-    font-size: 20px;
-        padding-left: 4px;
-        padding-right: 10px;
+  color: @surface2;
+  font-size: 20px;
+  padding-left: 4px;
+  padding-right: 10px;
 }
 
 #network.disconnected {
-  background-color: @red;
+  background-color: @color8;
 }
