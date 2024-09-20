@@ -1,4 +1,4 @@
 #!/bin/bash
-killall hyprpaper
+killall hyprpaper 
 sleep 1
-hyprpaper &
+hyprpaper  &
