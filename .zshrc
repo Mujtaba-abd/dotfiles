@@ -24,3 +24,6 @@ alias ga='git add'
 alias gp='git push'
 
 
+
+# Created by `pipx` on 2024-09-21 14:07:22
+export PATH="$PATH:/home/mojtaba/.local/bin"
