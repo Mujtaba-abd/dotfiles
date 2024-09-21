@@ -18,6 +18,7 @@ while read -r p ; do sudo dnf install  $p -y ; done < <(cat << "EOF"
     hyprland
     waybar
     wofi
+    waypaper
     kitty
     dunst
     Thunar
