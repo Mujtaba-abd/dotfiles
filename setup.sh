@@ -11,10 +11,11 @@ test $? -eq 0 || exit 1 "you should have sudo privilege to run this script"
 echo installing the must-have pre-requisites
 while read -r p ; do sudo dnf install  $p -y ; done < <(cat << "EOF"
     wget
+    NetworkManager-tui
+    blueman
     unzip
     rsync
     figlet
-    git 
     hyprland
     waybar
     wofi
@@ -34,7 +35,7 @@ while read -r p ; do sudo dnf install  $p -y ; done < <(cat << "EOF"
     python3-pip
     fastfetch
     wlogout
-    python3-gobject"
+    python3-gobject
     gtk4
     stow 
 EOF
