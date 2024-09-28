@@ -13,6 +13,7 @@ echo installing the must-have pre-requisites
 while read -r p ; do sudo dnf install  $p -y ; done < <(cat << "EOF"
     wget
     NetworkManager-tui
+    pavucontrol
     blueman
     unzip
     rsync

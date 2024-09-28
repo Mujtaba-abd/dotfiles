@@ -42,7 +42,7 @@ button {
 
 button:hover {
   background: @background;
-  border-radius: 90px;
+  border-radius: 60px;
 }
 
 #custom-power {
