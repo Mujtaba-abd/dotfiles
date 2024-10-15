@@ -16,10 +16,11 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-alias code='codium'
+#alias code='codium'
 
 #git aliases
 alias gc='git clone'
+alias gs='git status'
 alias ga='git add'
 alias gp='git push'
 
@@ -27,3 +28,4 @@ alias gp='git push'
 
 # Created by `pipx` on 2024-09-21 14:07:22
 export PATH="$PATH:/home/mojtaba/.local/bin"
+export PATH="$PATH:/opt/mssql-tools18/bin"

@@ -14,6 +14,7 @@ while read -r p ; do sudo dnf install  $p -y ; done < <(cat << "EOF"
     wget
     NetworkManager-tui
     pavucontrol
+    alsa-utils
     blueman
     unzip
     rsync
