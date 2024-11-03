@@ -15,6 +15,8 @@ while read -r p ; do sudo dnf install  $p -y ; done < <(cat << "EOF"
     NetworkManager-tui
     pavucontrol
     alsa-utils
+    brightnessctl
+    pamixer
     blueman
     unzip
     rsync
