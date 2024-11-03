@@ -47,4 +47,4 @@ EOF
 
 sudo pip3 install pywal
 
-stow .
+##stow .
