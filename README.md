@@ -2,17 +2,16 @@
 
 ## showcase 
 ---
-![[blankDesktop.png]]
+![Stuff](screensots/Stuff.png)
 
-![[Stuff.png]]
+![Zen adn Neovim](screensots/zen&nvim.png)
 
-![[zen&nvim.png]]
+![Discord and Bottom](screensots/discord&bottom.png)
 
-![[discord&bottom.png]]
+![Rofi](screensots/launcher.png)
 
-![[launcher.png]]
 
-![[hyprpanel.png]]
+![Hyprpanel](screensots/hyprpanel.png)
 
 ---
 
