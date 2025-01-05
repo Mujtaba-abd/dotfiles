@@ -2,29 +2,29 @@
 
 ## showcase 
 ---
-![[blankDesktop.png]]
+![blankDesktop](/screensots/blankDesktop.png)
 
-![[Stuff.png]]
+![stuff](/screensots/Stuff.png)
 
-![[zen&nvim.png]]
+![zen and nvim](/screensots/zen&nvim.png)
 
-![[discord&bottom.png]]
+![discord and bottom](/screensots/discord&bottom.png)
 
 ![[launcher.png]]
+![launcher](/screensots/launcher.png)
 
-![[hyprpanel.png]]
+![hyprpanel](/screensots/hyprpanel.png)
 
 ---
 
 ## What i use
 ---
--  WM : hyprland 
-- Terminal : kitty
-- Editor : neovim 
-- Bar : hyprpanel 
-- Browser : zen 
-- Launcher : rofi
-- File manager : thunar 
-- Gtk-theme : catppuccin-mocha
-
-
+-  WM: hyprland 
+- Terminal: kitty
+- Editor: neovim 
+- Bar: hyprpanel 
+- Browser: zen 
+- Launcher: rofi
+- File manager: thunar 
+- Gtk-theme: catppuccin-mocha
+[google](https://google.com)
