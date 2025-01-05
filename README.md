@@ -30,4 +30,3 @@
 - Launcher: rofi
 - File manager: thunar
 - Gtk-theme: catppuccin-mocha
-  [google](https://google.com)
