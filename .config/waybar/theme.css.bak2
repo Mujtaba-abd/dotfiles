@@ -1,0 +1,30 @@
+@define-color bg_main #181929; /* New: Very dark blue-gray for main background */
+@define-color bg_main_tooltip rgb(24, 25, 41); /* New: Same base as bg_main, or slightly different */
+
+/*base background color of selections */
+@define-color bg_hover #4F537B; /* New: Medium dark blue-purple for hover state */
+
+/*base background color of active elements */
+@define-color bg_active #4260AF; /* New: Vibrant medium blue for active elements */
+
+/*Alternative background colors*/
+@define-color bg_alt #799ACA; /* New: Lighter, soft blue for alternative background (e.g., specific modules) */
+@define-color bg_alt2 #64554D; /* New: Muted, earthy dark brown for a different alternative background */
+
+/*base border color*/
+@define-color border_main @content_main; /* Keep border matching main content */
+
+/*text color for entries, views and content in general */
+@define-color content_main #C5C1C8; /* New: Light, slightly desaturated purple-gray for main content */
+@define-color content_hover #C5C1C8; /* New: Same as main for hover content */
+@define-color content_alt #4F537B; /* New: Using the same as bg_hover for a subtle alternative content */
+@define-color content-act #A43C04; /* New: Deep, rich orange for active content - this will pop! */
+
+/*text color for entries that are unselected */
+@define-color content_inactive rgba(197, 193, 200, 0.5); /* New: Faded version of your new main content color */
+
+/* Player colors */
+@define-color ply-main #181929; /* Very dark blue-gray for the main player background, consistent with your main Waybar background */
+@define-color ply-hover #4F537B; /* Medium dark blue-purple for hover states within the player, providing a subtle lift */
+@define-color ply-act #4260AF; /* Vibrant medium blue for general active elements in the player, consistent with your Waybar active background */
+@define-color msc-act #A43C04; /* Deep, rich orange for music-specific active elements, making it stand out as a strong accent */

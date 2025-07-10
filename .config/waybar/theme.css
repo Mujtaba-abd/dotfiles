@@ -1,0 +1,30 @@
+@define-color bg_main #091D20; /* Very dark blue-green for the primary background */
+@define-color bg_main_tooltip rgb(9, 29, 32); /* Converted #091D20 to RGB for consistency */
+
+/*base background color of selections */
+@define-color bg_hover #1D535D; /* Dark teal for hover states, providing a subtle shift */
+
+/*base background color of active elements */
+@define-color bg_active #658A99; /* Muted medium blue-gray for general active elements */
+
+/*Alternative background colors*/
+@define-color bg_alt #7CA4AC; /* Lighter muted blue-gray for an alternative background */
+@define-color bg_alt2 #13242C; /* Dark blue-green for a darker alternative background */
+
+/*base border color*/
+@define-color border_main @content_main; /* Keeps border matching main content */
+
+/*text color for entries, views and content in general */
+@define-color content_main #C9DEEC; /* Very light blue-gray for main content, offering good contrast */
+@define-color content_hover #C9DEEC; /* Same as main for hover content */
+@define-color content_alt #658A99; /* Muted medium blue-gray for less prominent content */
+@define-color content-act #1D535D; /* Dark teal for active content, providing a distinct highlight */
+
+/*text color for entries that are unselected */
+@define-color content_inactive rgba(201, 222, 236, 0.5); /* Faded version of your new main content color (#C9DEEC) */
+
+/* Player colors */
+@define-color ply-main #091D20; /* Main player background, consistent with $bg-main */
+@define-color ply-hover #1D535D; /* Player hover, consistent with $bg_hover */
+@define-color ply-act #658A99; /* Player active background, consistent with $bg_active */
+@define-color msc-act #7CA4AC; /* Music active accent, using a lighter blue-gray for distinction */

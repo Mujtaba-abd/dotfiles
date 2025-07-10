@@ -1,0 +1,29 @@
+// Main background colors
+$bg-main: #091D20;
+$bg-main-tooltip: rgb(9, 29, 32); /* Matches $bg-main */
+
+// Base background color of selections
+$bg-hover: #1D535D;
+// Base background color of active elements
+$bg-active: #658A99;
+// Alternative background colors
+$bg-alt: #7CA4AC;
+$bg-alt2: #13242C;
+
+// Base border color
+$border_main: #C9DEEC; /* Matches $content-main */
+$border-alt: #1D535D; /* Matches $bg-hover for a subtle alternative */
+
+// Text colors
+$content-main: #C9DEEC;
+$content-hover: #C9DEEC;
+$content-alt: #658A99;
+$content-act: #1D535D;
+// Text color for entries that are unselected
+$content-inactive: rgba(201, 222, 236, 0.5); /* Faded version of $content-main */
+
+// Player colors
+$ply-main: #091D20; /* Consistent with $bg-main */
+$ply-hover: #1D535D; /* Consistent with $bg-hover */
+$ply-act: #658A99; /* Consistent with $bg-active */
+$msc-act: #7CA4AC; /* Lighter shade for music accent */

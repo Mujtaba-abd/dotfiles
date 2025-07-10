@@ -1,4 +1,3 @@
-
 # The following lines were added by compinstall
 
 zstyle ':completion:*' completer _complete _ignored _approximate
@@ -9,7 +8,8 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-nerdfetch
+# nerdfetch
+fastfetch
 
 # Exports
 # -----------------------------------------------------
@@ -59,3 +59,5 @@ alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
+export PATH=$PATH:/home/mojtaba/.spicetify
